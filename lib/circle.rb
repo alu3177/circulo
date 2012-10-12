@@ -9,9 +9,5 @@ class Circle
     def radius
         @perimeter / (2*$PI)
     end
-
+    
 end
-
-
-c = Circle.new(2.34)
-puts c.radius
